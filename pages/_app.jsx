@@ -11,9 +11,9 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
 
 }
 
-const siteTitle = "Aptos Fronk -  Fronk Goes To Aptos.";
+const siteTitle = "ZkMaru - bla bla bla.";
 const siteDescription =
-  "Fronk Goes To Aptos.";
+  "ZkMaru bla bla bla.";
 
 const App = ({ Component, pageProps }) => {
   const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();

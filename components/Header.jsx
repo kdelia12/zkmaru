@@ -5,7 +5,6 @@ import { useEffectOnce, useEventListener } from "usehooks-ts";
 
 import { Moon, Sun } from "../svg/DarkModeIcons";
 
-// Built with Vivid (https://vivid.lol) ⚡️
 
 export const Header = ({ isDarkMode, toggleDarkMode }) => {
   const [top, setTop] = useState(true);
