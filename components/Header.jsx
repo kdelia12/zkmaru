@@ -54,21 +54,25 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           </li>
         ) : null}
         <li>
-          <Link
-            href="https://t.me/xxxxx"
-            className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-          >
-            Join Community
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="https://docs.sharu.live/"
-            className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-          >
-            Docs
-          </Link>
-        </li>
+  <Link
+    href="https://t.me/zksharu"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
+  >
+    Join Community
+  </Link>
+</li>
+<li>
+  <Link
+    href="https://docs.sharu.live/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
+  >
+    Docs
+  </Link>
+</li>
         <li className={`transition ${!nextSection && "hidden"}`}>
           <button
             type="button"

@@ -12,7 +12,7 @@ export const Footer = () => {
           </div>
         </div>
         <a
-          href="ht"
+          href="https://t.me/+9GxxJDq-skQ1ODA1"
           aria-label="Join Telegram"
           className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
         >

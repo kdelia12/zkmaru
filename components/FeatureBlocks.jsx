@@ -71,7 +71,7 @@ export const FeatureBlocks = () => {
               Nextstop (Q4 2023)
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              FronkDAO? We will do a DAO Launch, and we will never stop building our community!
+              MaruDAO? We will do a DAO Launch, and we will never stop building our community!
               World tour? We will do a world tour to meet our community!
             </p>
           </div>

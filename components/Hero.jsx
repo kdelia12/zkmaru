@@ -38,7 +38,7 @@ export const Hero = () => {
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-red to-neon-red">
-              ZkMaru{" "}
+              zkSharu{" "}
             </span>
             <br />
             Invest{" "}
@@ -51,7 +51,7 @@ export const Hero = () => {
             data-aos-delay="150"
             className="text-lg text-gray-600 md:text-xl dark:text-gray-400"
           >
-            ZkMaru is not just a token meme project, but ZkMaru is a Gamechanger</p>
+            Sharu born with his vision to bring goodness to the zkSync ecosystem, Sharu will invade the entire crypto space.</p>
           <div
             className="flex flex-col"
             data-aos="zoom-y-out"

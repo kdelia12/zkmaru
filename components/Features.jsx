@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
-import MacBarSrc from "../public/images/zkmaruu.png";
+import MacBarSrc from "../public/images/story.jpg";
 import piechart from "../public/images/piechart.png";
 
 // Built with Vivid (https://vivid.lol) ⚡️
@@ -26,7 +27,14 @@ export const Features = () => {
               data-aos-delay="150"
               className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
             >
-              ZkMAru will bring many features in the ecosystem for example are bla bla bla
+              Sharu, is a bad-ass samurai, can't just sit around while his country is being run by a tyrant king who only cares about his own power, leaving the people in poverty and injustice.
+              </p>
+              <p
+              data-aos="zoom-y-out"
+              data-aos-delay="150"
+              className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
+            >
+              He decides to take matters into his own hands and starts gathering a crew of warriors from all walks of life, including those who are fed up with the current situation. He also seeks the support of community leaders and big shots in his country.
             </p>
           </div>
           <div className="w-5/6 p-4 md:w-1/2 md:p-12 bg-gradient-to-br rounded-xl from-neon-amber to-neon-red">
@@ -58,12 +66,21 @@ export const Features = () => {
               <br /> 
             </h2>
             <p
-              data-aos="zoom-y-out"
-              data-aos-delay="150"
-              className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
-            >
-              We have amazing Tokenomics for you.
-            </p>
+  data-aos="zoom-y-out"
+  data-aos-delay="150"
+  className="text-lg md:text-xl text-gray-600 dark:text-gray-400 list-disc list-inside"
+>
+  SHARU Tokenomics:
+  <ul>
+    <li>Total Supply: 100.000.000.000.000 $SHARU</li>
+    <li>40% Liquidity</li>
+    <li>20% $SHARU burn</li>
+    <li>5% Teams</li>
+    <li>5% Marketing</li>
+    <li>20% Airdrop</li>
+    <li>10% Cex listing</li>
+  </ul>
+</p>
           </div>
           <div className="w-5/6 p-4 md:w-1/2 md:p-12 bg-gradient-to-br rounded-xl from-neon-amber to-neon-red">
             <div
